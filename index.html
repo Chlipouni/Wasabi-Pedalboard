@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="theme-color" content="#fff">
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-  <meta http-equiv="origin-trial" data-feature="AudioWorklet" data-expires="2018-03-06" content="AuqouVYOpuBqGUbQMwRTvnR9R5K1T0u5vw5KUqvZQSNox/gKa/dGig1VWcPYXUzuHN1OtTijH+lhVjg8has9RggAAABseyJvcmlnaW4iOiJodHRwczovL3dhc2FiaS5pM3MudW5pY2UuZnI6NDQzIiwiZmVhdHVyZSI6IkF1ZGlvV29ya2xldCIsImV4cGlyeSI6MTUyMDI5NDQwMCwiaXNTdWJkb21haW4iOnRydWV9">
+  <meta http-equiv="origin-trial" data-feature="AudioWorklet" data-expires="2018-03-06"
+    content="AuqouVYOpuBqGUbQMwRTvnR9R5K1T0u5vw5KUqvZQSNox/gKa/dGig1VWcPYXUzuHN1OtTijH+lhVjg8has9RggAAABseyJvcmlnaW4iOiJodHRwczovL3dhc2FiaS5pM3MudW5pY2UuZnI6NDQzIiwiZmVhdHVyZSI6IkF1ZGlvV29ya2xldCIsImV4cGlyeSI6MTUyMDI5NDQwMCwiaXNTdWJkb21haW4iOnRydWV9">
   <title>SimplePedalBoard</title>
   <meta name="description" content="SimplePedalBoard description">
+  <script src="./bower_components/webcomponentsjs/webcomponents-lite.js">
+  </script>
+  <!-- factory plugins -->
+  <script src="./src/pedal-board/src/wc-save/buildInPresets.js"></script>
 
-   <!-- factory plugins -->
-   <script src="./src/pedal-board/src/wc-save/buildInPresets.js"></script>
-
-
-   <script src="https://wasabi.i3s.unice.fr/WebAudioPluginBank/bower_components/webaudio-controls2/webcomponents-lite.js"></script>
 
   <!-- See https://goo.gl/OOhYW5 -->
   <link rel="manifest" href="./manifest.json">
@@ -22,8 +22,6 @@
   <link rel="stylesheet" href="./css/css.css">
   <link rel="stylesheet" href="./pastyle.css">
   <link rel="import" href="./src/pedal-board">
-
-
 
   <!-- Link to factory and its components -->
   <link rel="import" href="./src/pedal-board/factory.html">
@@ -36,19 +34,18 @@
   <link rel="import" href="./bower_components/iron-icons/image-icons.html">
   <link rel="import" href="./bower_components/iron-icons/social-icons.html">
 
-  <link rel="import" href="./src/plugins/pedal-in">
-  <link rel="import" href="./src/plugins/pedal-out">
 
- 
+
   <script>
     WebAudioControlsOptions = {
       useMidi: 1,
     };
   </script>
-  <script src="https://wasabi.i3s.unice.fr/WebAudioPluginBank/bower_components/webaudio-controls2/webaudio-controls.js"></script>
+  <script src="https://wasabi.i3s.unice.fr/WebAudioPluginBank/bower_components/webaudio-controls2/webaudio-controls.js">
+  </script>
 
   <!-- pedal-board -->
-  
+
   <!-- <script src="./index.js"></script> -->
 
 </head>
